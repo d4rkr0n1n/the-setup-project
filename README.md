@@ -25,3 +25,15 @@ choco install -y python openjdk
 ```powershell
 choco install -y terraform vagrant minikube
 ```
+
+### Important Software Checklist
+
+- Opera GX
+- Docker Desktop
+- VS Code
+- XDM
+- Notepad++
+- PowerToys
+- qBittorent
+  - Theme: [Download](https://github.com/dracula/qbittorrent/raw/master/dracula.qbtheme)
+  
