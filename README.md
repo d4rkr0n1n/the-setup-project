@@ -30,7 +30,7 @@ choco install -y terraform vagrant minikube
 
 - Opera GX
 - Docker Desktop
-- VS Code
+- VS Code ([code-profiles](https://github.com/d4rkr0n1n/the-setup-project/tree/main/code-profiles))
 - XDM
 - PowerToys
 - Notepad++ ([Theme](https://raw.githubusercontent.com/dracula/notepad-plus-plus/master/Dracula.xml))
