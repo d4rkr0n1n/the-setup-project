@@ -2,10 +2,26 @@
 
 ## First Boot x Windows
 
-1. Install PowerShell
-2. Run PowerShell as Admin
-3. Copy & execute command:
+### Install _Chocolatey Software_
 
 ```powershell
-curl https://raw.githubusercontent.com/d4rkr0n1n/the-setup-project/main/FirstBoot.ps1 -o FirstBoot.ps1
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
+
+### Install Starship
+
+```powershell
+choco install -y starship
+```
+
+### Install Language Support
+
+```powershell
+choco install -y python openjdk
+```
+
+### Install Important CLI
+
+```powershell
+choco install -y terraform vagrant minikube
 ```
