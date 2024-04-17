@@ -32,8 +32,6 @@ choco install -y terraform vagrant minikube
 - Docker Desktop
 - VS Code
 - XDM
-- Notepad++
 - PowerToys
-- qBittorent
-  - Theme: [Download](https://github.com/dracula/qbittorrent/raw/master/dracula.qbtheme)
-  
+- Notepad++ ([Theme](https://raw.githubusercontent.com/dracula/notepad-plus-plus/master/Dracula.xml))
+- qBittorent ([Theme](https://github.com/dracula/qbittorrent/raw/master/dracula.qbtheme))
